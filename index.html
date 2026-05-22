@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Free2GO</title>
+
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<nav>
+  <div class="logo">Free2GO</div>
+
+  <ul>
+    <li><a href="index.html">Home</a></li>
+    <li><a href="minecraft.html">Minecraft</a></li>
+    <li><a href="roblox.html">Roblox</a></li>
+    <li><a href="edits.html">Edits</a></li>
+  </ul>
+</nav>
+
+<section class="hero">
+  <h1>Everything For Free</h1>
+  <p>Minecraft • Roblox • Edits</p>
+
+  <input type="text" id="searchInput" placeholder="Search categories...">
+</section>
+
+<section class="categories" id="categories">
+
+  <a href="minecraft.html" class="card">
+    <img src="./images/minecraft.jpg">
+    <div class="card-content">
+      <h2>Minecraft</h2>
+      <p>Get your free Minecraft stuff now!</p>
+    </div>
+  </a>
+
+  <a href="roblox.html" class="card">
+    <img src="./images/roblox.jpg">
+    <div class="card-content">
+      <h2>Roblox</h2>
+      <p>Get your free Roblox stuff now!</p>
+    </div>
+  </a>
+
+  <a href="edits.html" class="card">
+    <img src="./images/edits.jpg">
+    <div class="card-content">
+      <h2>Edits</h2>
+      <p>Get your free edits now!</p>
+    </div>
+  </a>
+
+</section>
+
+<footer>
+  <p>© 2026 Free2GO</p>
+  <div class="stock-footer">
+    <p id="stock-line-1">Minecraft Stock: <span id="stock-minecraft">0</span></p>
+    <p id="stock-line-2">Roblox Stock: <span id="stock-roblox">0</span></p>
+    <p id="stock-line-3">Edits Stock: <span id="stock-edits">0</span></p>
+  </div>
+</footer>
+
+<!-- Supabase -->
+<script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2"></script>
+<script src="script.js"></script>
+
+</body>
+</html>
